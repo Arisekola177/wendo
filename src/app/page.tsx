@@ -6,7 +6,7 @@ import Trust from "./components/Trust";
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="overflow-hidden relative">
         <HomeBanner />
          <Content />
          <Trust />
