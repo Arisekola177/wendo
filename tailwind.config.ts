@@ -8,9 +8,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      screens: {
+        xs: "240px",
+        sm: "320px",
+        sml: "480px",
+        md: "768px",
+        lg: "960px",
+        lgl: "1024px",
+        xl: "1280px",
       },
     },
   },
