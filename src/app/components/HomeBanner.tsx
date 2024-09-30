@@ -63,9 +63,9 @@ const HomeBanner = () => {
             </div>
         
           </div>
-          <div className='xl:w-[370px] md:w-[320px] xs:w-[250px]  mx-auto bg-white rounded-3xl flex items-center justify-center p-1 xl:p-2 absolute left-0 right-0 xs:bottom-8 sm:bottom-12 md:bottom-16 lgl:bottom-24 xl:bottom-20 '>
-             <Image src={frame16} alt='frame16' className='object-contain xs:w-16 md:w-full  ' />
-              <Image src={frame15} alt='frame15' className='object-contain xs:w-40 md:w-full  ' /> 
+          <div className='w-[300px] mx-auto bg-white rounded-3xl flex items-center justify-center p-1 xl:p-2 absolute left-0 right-0 xs:bottom-8 sm:bottom-12 md:bottom-16 lgl:bottom-24 xl:bottom-20 '>
+             <Image src={frame16} alt='frame16' className='object-contain xs:w-16  ' />
+              <Image src={frame15} alt='frame15' className='object-contain xs:w-40   ' /> 
           </div>
           <div className='hidden md:block absolute left-0 right-0 -bottom-10 w-[200px] xl:w-[300px] z-10 mx-auto '>
             <Image src={frame3} alt='frame 3' className='w-full' />
